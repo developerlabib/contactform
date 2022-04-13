@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.maindiv{
+    text-align: center;
+    align-items: center;
+
+    padding: 15px;
+    width: 250px;
+    height: 300px;
+    border:2px solid gray;
+    border-radius: 5px;
+}
+.maindiv:hover{
+    transition: all 0.2s;
+    box-shadow: gray 3px 3px 3px ;
+}
+#input-name{
+    padding: 10px;
+    border: solid 2px gray;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#input-email{
+    padding: 10px;
+    border: solid 2px gray;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#input-massage{
+    padding: 10px;
+    height: 70px;
+    border: solid 2px gray;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#input-submit{
+    padding: 5px;
+    width: 192px;
+    height: 30px;
+    background-color: rgb(7, 216, 7);
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#input-submit:hover{
+    background-color: rgb(10, 163, 10);
+    transition: all 0.3s;
+    box-shadow: rgb(182, 177, 177) 1px 1px 1px 1px;
+}
